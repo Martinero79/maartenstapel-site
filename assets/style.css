@@ -1,0 +1,68 @@
+:root{
+  --bg:#ffffff; --bg2:#f4f7f8; --ink:#14232f; --muted:#5b6670; --line:#e1e6ea;
+  --accent:#0f5c63; --accent-ink:#fff; --dot:#2e9d5b;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#10171d; --bg2:#151e26; --ink:#e9edf0; --muted:#9aa6b0; --line:#25313b;
+  --accent:#5fb7b9; --accent-ink:#0b1216;
+}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--sans)}
+a{color:var(--accent)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:var(--bg);padding:8px;z-index:9}
+.site-header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:20px;height:60px}
+.brand{font-family:var(--sans);font-size:19px;font-weight:700;letter-spacing:-.01em;color:var(--ink);text-decoration:none;margin-right:auto}
+.nav{display:flex;gap:22px}
+.nav a{color:var(--muted);text-decoration:none;font-size:15px}.nav a:hover{color:var(--ink)}
+.lang{font:600 13px var(--sans);letter-spacing:.06em;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:7px 14px;cursor:pointer;min-height:36px}
+.lang:hover{border-color:var(--accent)}
+section{padding:80px 0}
+.band{background:var(--bg2)}
+h1,h2,h3{font-family:var(--sans);font-weight:700;line-height:1.12;letter-spacing:-.02em;margin:0 0 .5em}
+h1{font-size:clamp(40px,7.5vw,80px);letter-spacing:-.03em}
+h2{font-size:clamp(28px,4vw,40px)}
+h3{font-size:21px}
+.muted{color:var(--muted)}
+.hero{padding:96px 0 88px}
+.status{display:inline-flex;align-items:center;gap:10px;font-size:14px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:6px 14px;margin:0 0 28px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--dot);box-shadow:0 0 0 4px color-mix(in srgb,var(--dot) 20%,transparent)}
+.lead{font-size:clamp(18px,2.2vw,21px);max-width:640px;color:var(--ink)}
+.lead-s{font-size:18px}
+.who{color:var(--muted);font-size:15px;margin-top:28px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:6px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:600;font-size:16px}
+.btn:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.big{font-size:18px;min-height:56px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:28px}
+.grid.three{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:24px}
+.band .card{background:var(--bg)}
+.card p{margin:0;color:var(--muted)}
+.card a{text-decoration:none}
+.two{display:grid;grid-template-columns:1fr 1.3fr;gap:48px}
+.steps{list-style:none;counter-reset:s;margin:0;padding:0}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;row-gap:2px;padding:18px 0;border-top:1px solid var(--line)}
+.steps li::before{content:counter(s,decimal-leading-zero);grid-row:span 2;font-family:var(--sans);color:var(--accent);font-size:20px}
+.steps span{color:var(--muted)}
+.fact{border-top:2px solid var(--accent);padding-top:12px;display:flex;flex-direction:column}
+.fact .k{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.fact .v{font-size:19px;font-weight:600}
+.contact{background:var(--ink);color:var(--bg)}
+.contact .lead{color:var(--bg);opacity:.85}
+.contact .btn.primary{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.site-footer{padding:28px 0;font-size:14px;border-top:1px solid var(--line)}
+.site-footer p{margin:4px 0}
+@media (max-width:720px){
+  .nav{display:none}
+  section{padding:56px 0}
+  .hero{padding:56px 0}
+  .two{grid-template-columns:1fr;gap:8px}
+  .ctas .btn{flex:1 1 100%}
+}
+.lang[hidden]{display:none}
