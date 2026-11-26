@@ -19,8 +19,10 @@ Nothing goes live until Maarten merges the pull request himself.
 **Deliberately left out (do-not-claim list)**
 - No people management, business cases, dashboards or automation claims. For that reason the CV points on SAP/EPM/BI rollouts, the SAP implementation lead, Power BI and the exit evaluation are not on the page.
 
+**Privacy**
+- The CV published on the website is a web version: home address, phone number and personal email were removed from the PDF (the text itself is deleted, not covered over) and replaced with "Copenhagen, Denmark", hello@maartenstapel.dk and maartenstapel.dk. Nothing else in the CV was changed.
+
 **Note**
-- The CV PDF includes the home address, phone number and personal email. Once merged, anyone can download it.
 - The Danish draft (`assets/i18n.js`) is now out of date and will be redone in the Danish update.
 
 ## 2026-11-26: First version (pull request #1)
