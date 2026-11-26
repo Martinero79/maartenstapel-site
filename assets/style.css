@@ -1,7 +1,6 @@
 :root{
-  --bg:#fbfaf7; --bg2:#f2efe8; --ink:#14202b; --muted:#5b6670; --line:#e2ddd2;
+  --bg:#ffffff; --bg2:#f4f7f8; --ink:#14232f; --muted:#5b6670; --line:#e1e6ea;
   --accent:#0f5c63; --accent-ink:#fff; --dot:#2e9d5b;
-  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root{
@@ -16,15 +15,15 @@ a{color:var(--accent)}
 .skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:var(--bg);padding:8px;z-index:9}
 .site-header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .bar{display:flex;align-items:center;gap:20px;height:60px}
-.brand{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--ink);text-decoration:none;margin-right:auto}
+.brand{font-family:var(--sans);font-size:19px;font-weight:700;letter-spacing:-.01em;color:var(--ink);text-decoration:none;margin-right:auto}
 .nav{display:flex;gap:22px}
 .nav a{color:var(--muted);text-decoration:none;font-size:15px}.nav a:hover{color:var(--ink)}
 .lang{font:600 13px var(--sans);letter-spacing:.06em;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:7px 14px;cursor:pointer;min-height:36px}
 .lang:hover{border-color:var(--accent)}
 section{padding:80px 0}
 .band{background:var(--bg2)}
-h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15;margin:0 0 .5em}
-h1{font-size:clamp(42px,8vw,84px);letter-spacing:-.01em}
+h1,h2,h3{font-family:var(--sans);font-weight:700;line-height:1.12;letter-spacing:-.02em;margin:0 0 .5em}
+h1{font-size:clamp(40px,7.5vw,80px);letter-spacing:-.03em}
 h2{font-size:clamp(28px,4vw,40px)}
 h3{font-size:21px}
 .muted{color:var(--muted)}
@@ -49,7 +48,7 @@ h3{font-size:21px}
 .two{display:grid;grid-template-columns:1fr 1.3fr;gap:48px}
 .steps{list-style:none;counter-reset:s;margin:0;padding:0}
 .steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;row-gap:2px;padding:18px 0;border-top:1px solid var(--line)}
-.steps li::before{content:counter(s,decimal-leading-zero);grid-row:span 2;font-family:var(--serif);color:var(--accent);font-size:20px}
+.steps li::before{content:counter(s,decimal-leading-zero);grid-row:span 2;font-family:var(--sans);color:var(--accent);font-size:20px}
 .steps span{color:var(--muted)}
 .fact{border-top:2px solid var(--accent);padding-top:12px;display:flex;flex-direction:column}
 .fact .k{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
@@ -66,3 +65,4 @@ h3{font-size:21px}
   .two{grid-template-columns:1fr;gap:8px}
   .ctas .btn{flex:1 1 100%}
 }
+.lang[hidden]{display:none}

@@ -77,6 +77,7 @@
     history.replaceState(null, "", u);
   }
 
+  if (btn.hidden) { document.getElementById("y").textContent = new Date().getFullYear(); return; }
   var q = new URLSearchParams(location.search).get("lang");
   var saved = null;
   try { saved = localStorage.getItem("lang"); } catch (e) {}
