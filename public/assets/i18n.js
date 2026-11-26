@@ -44,6 +44,7 @@
     "projects.p": "Et par ting, jeg bygger i min fritid.",
     "projects.1p": "Min investeringsside. Personlig research, ikke investeringsrådgivning.",
     "projects.2p": "En side om surfrejser. Kommer snart.",
+    "projects.3p": "En side om vin. Kommer snart.",
     "contact.h": "Kontakt mig",
     "contact.p": "Har I brug for interim økonomihjælp? Send en kort besked om stillingen, tidsrammen og opgaven, så vender jeg hurtigt tilbage.",
     "footer.loc": "Interim økonomi, København, Danmark",
