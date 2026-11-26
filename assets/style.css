@@ -66,3 +66,16 @@ h3{font-size:21px}
   .ctas .btn{flex:1 1 100%}
 }
 .lang[hidden]{display:none}
+.kicker{font-weight:600;color:var(--accent);margin:0 0 16px}
+.timeline{list-style:none;margin:28px 0;padding:0}
+.timeline>li{display:grid;grid-template-columns:120px 1fr;column-gap:24px;padding:24px 0;border-top:1px solid var(--line)}
+.timeline>li>*{grid-column:2;margin:0 0 6px}
+.timeline .when{grid-column:1;grid-row:1 / span 4;color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums}
+.timeline h3{font-size:19px}
+.timeline .org{font-weight:500;color:var(--muted)}
+.timeline ul{margin:6px 0 0;padding-left:18px;color:var(--muted)}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin-top:20px}
+.facts dt{font-weight:600}.facts dd{margin:0;color:var(--muted)}
+a.card.link{color:inherit;display:block;text-decoration:none}a.card.link:hover{border-color:var(--accent)}
+@media (max-width:720px){.timeline>li{grid-template-columns:1fr}.timeline .when{grid-column:1;grid-row:auto}.timeline>li>*{grid-column:1}.facts{grid-template-columns:1fr}}
+.grid.six{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}

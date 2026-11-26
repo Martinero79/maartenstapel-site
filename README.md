@@ -8,4 +8,4 @@ Plain static site, no build step. Hosted on Cloudflare Pages (build command: non
 - `assets/style.css` – styles; accent colour is `--accent`
 - `sitemap.xml`, `robots.txt`, `_headers` (security headers), `404.html`
 
-To add the CV: put the PDF at `assets/Maarten-Stapel-CV.pdf` and point the "Download CV" button (`#cv-link`) to it.
+The CV lives at `assets/Maarten-Stapel-CV.pdf`. To update it, replace that file (keep the same name).
