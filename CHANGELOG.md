@@ -4,6 +4,17 @@ Every change to the website is listed here: what changed and why.
 Each entry matches a pull request on GitHub, which holds the exact line-by-line changes.
 Nothing goes live until Maarten merges the pull request himself.
 
+## 2026-11-26: Full name in the header, 15+ years in About, project names (pull request #3)
+**What changed**
+- Projects: added a third card, "Wine Atlas", coming soon (no link yet).
+- Projects: the surf card is now called "Surf Travel Atlas". Removed the last mention of "Daily Pick" (it was left in the hidden Danish draft), because it is only a small part of Not Your Financial Advisor.
+- About section now opens with "15+ years of experience in FP&A, business partnering and controlling" (same claim as the CV).
+- The name at the top left of every page now reads "Maarten Pieter Stapel" (was "Maarten Stapel").
+- Search engine data now also lists "Maarten Pieter Stapel" as an alternative name.
+
+**Why**
+- Matches the name on the CV.
+
 ## 2026-11-26: CV and real content (pull request #2)
 **What changed**
 - "Download CV" now downloads the CV as a PDF (`public/assets/Maarten-Stapel-CV.pdf`) instead of opening an email.
