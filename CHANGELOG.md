@@ -4,6 +4,14 @@ Every change to the website is listed here: what changed and why.
 Each entry matches a pull request on GitHub, which holds the exact line-by-line changes.
 Nothing goes live until Maarten merges the pull request himself.
 
+## 2026-11-26: Full name in the header (pull request #3)
+**What changed**
+- The name at the top left of every page now reads "Maarten Pieter Stapel" (was "Maarten Stapel").
+- Search engine data now also lists "Maarten Pieter Stapel" as an alternative name.
+
+**Why**
+- Matches the name on the CV.
+
 ## 2026-11-26: CV and real content (pull request #2)
 **What changed**
 - "Download CV" now downloads the CV as a PDF (`public/assets/Maarten-Stapel-CV.pdf`) instead of opening an email.
