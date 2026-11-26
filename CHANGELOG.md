@@ -6,7 +6,7 @@ Nothing goes live until Maarten merges the pull request himself.
 
 ## 2026-11-26: CV and real content (pull request #2)
 **What changed**
-- "Download CV" now downloads the CV as a PDF (`assets/Maarten-Stapel-CV.pdf`) instead of opening an email.
+- "Download CV" now downloads the CV as a PDF (`public/assets/Maarten-Stapel-CV.pdf`) instead of opening an email.
 - Hero, "Assignments I take on", Track record and About now use facts from the CV only.
 - Track record lists each role from 2007 to 2026 with selected results from the CV.
 - Projects now links to the investing website notyourfinancialadvisor.com (named in the CV).
@@ -22,8 +22,14 @@ Nothing goes live until Maarten merges the pull request himself.
 **Privacy**
 - The CV published on the website is a web version: home address, phone number and personal email were removed from the PDF (the text itself is deleted, not covered over) and replaced with "Copenhagen, Denmark", hello@maartenstapel.dk and maartenstapel.dk. Nothing else in the CV was changed.
 
+**Hosting fix: Cloudflare Workers**
+- The site runs as a Cloudflare Worker (not Pages). Added `wrangler.jsonc`, which tells Cloudflare exactly which folder is the website.
+- Moved all website files into a `public/` folder. Why: only that folder is published, so the README, changelog and settings are never served as web pages.
+- Pages that don't exist now show the "page not found" page.
+- Tested with Cloudflare's own tool (wrangler) locally: homepage, CV download, sitemap, security headers and the 404 page all work.
+
 **Note**
-- The Danish draft (`assets/i18n.js`) is now out of date and will be redone in the Danish update.
+- The Danish draft (`public/assets/i18n.js`) is now out of date and will be redone in the Danish update.
 
 ## 2026-11-26: First version (pull request #1)
 **What changed**
