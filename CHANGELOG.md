@@ -26,6 +26,7 @@ Nothing goes live until Maarten merges the pull request himself.
 - The site runs as a Cloudflare Worker (not Pages). Added `wrangler.jsonc`, which tells Cloudflare exactly which folder is the website.
 - Moved all website files into a `public/` folder. Why: only that folder is published, so the README, changelog and settings are never served as web pages.
 - Pages that don't exist now show the "page not found" page.
+- Added an empty `previews` block to `wrangler.jsonc`. Why: Cloudflare builds a test version of every pull request with `npx wrangler preview`, and that command refuses to run without this block (the test build of this pull request failed on it).
 - Tested with Cloudflare's own tool (wrangler) locally: homepage, CV download, sitemap, security headers and the 404 page all work.
 
 **Note**
