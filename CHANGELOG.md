@@ -10,7 +10,7 @@ Nothing goes live until Maarten merges the pull request himself.
 - The downloadable CV (PDF) shows maarten@maartenstapel.dk too. Only that one line was changed: the old text was removed and the new address written in the same font, size and place.
 
 **Why**
-- Maarten prefers a personal address over hello@. maarten@ forwards to his own inbox through Cloudflare Email Routing.
+- Maarten prefers a personal address over hello@. maarten@ forwards to Maarten's own inbox through Cloudflare Email Routing.
 
 ## 2026-11-27: Show the roles I take on, interim or permanent (pull request #5)
 **What changed**
