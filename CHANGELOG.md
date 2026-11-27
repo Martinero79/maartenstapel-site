@@ -4,6 +4,18 @@ Every change to the website is listed here: what changed and why.
 Each entry matches a pull request on GitHub, which holds the exact line-by-line changes.
 Nothing goes live until Maarten merges the pull request himself.
 
+## 2026-11-27: New colour scheme "Nordic Blue" (pull request #4)
+**What changed**
+- Main colour is now a clear blue (#1d5fa8) instead of dark teal, used for the "Get in touch" button, the line under the name and the years in the track record.
+- A fresh green (#2f9e6f) highlights "in Copenhagen" in the big heading, the 01/02/03 numbers in "How I work" and the lines above the Engagement facts.
+- Top section and every other section now have a light blue tint instead of plain white and grey. Cards are white with a thin blue line on top.
+- "Get in touch" block at the bottom is now a navy-to-blue gradient (was dark navy). The footer has a light blue tint.
+- Dark mode (for visitors whose computer is set to dark) uses matching darker blues.
+- Browser tab icon ("MS") and the mobile browser bar colour are now the same blue.
+
+**Why**
+- The old look felt too white and grey. Maarten picked "Nordic Blue" from three sample schemes (previews in the project folder, website/colour-schemes).
+
 ## 2026-11-26: Full name in the header, 15+ years in About, project names (pull request #3)
 **What changed**
 - Projects: added a third card, "Wine Atlas", coming soon (no link yet).
