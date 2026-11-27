@@ -4,7 +4,7 @@ Every change to the website is listed here: what changed and why.
 Each entry matches a pull request on GitHub, which holds the exact line-by-line changes.
 Nothing goes live until Maarten merges the pull request himself.
 
-## 2026-11-27: New colour scheme "Nordic Blue" (pull request #PR)
+## 2026-11-27: New colour scheme "Nordic Blue" (pull request #4)
 **What changed**
 - Main colour is now a clear blue (#1d5fa8) instead of dark teal, used for the "Get in touch" button, the line under the name and the years in the track record.
 - A fresh green (#2f9e6f) highlights "in Copenhagen" in the big heading, the 01/02/03 numbers in "How I work" and the lines above the Engagement facts.
