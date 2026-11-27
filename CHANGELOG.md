@@ -4,6 +4,14 @@ Every change to the website is listed here: what changed and why.
 Each entry matches a pull request on GitHub, which holds the exact line-by-line changes.
 Nothing goes live until Maarten merges the pull request himself.
 
+## 2026-11-27: Contact email is now maarten@maartenstapel.dk (pull request #6)
+**What changed**
+- The "Get in touch" button, its email link and the search engine data now use maarten@maartenstapel.dk instead of hello@maartenstapel.dk.
+- The downloadable CV (PDF) shows maarten@maartenstapel.dk too. Only that one line was changed: the old text was removed and the new address written in the same font, size and place.
+
+**Why**
+- Maarten prefers a personal address over hello@. maarten@ forwards to Maarten's own inbox through Cloudflare Email Routing.
+
 ## 2026-11-27: Show the roles I take on, interim or permanent (pull request #5)
 **What changed**
 - New section "Roles I take on" (first section after the top) with six cards: Finance Business Partner, Business Controller, Finance Manager, FP&A, Leading a small finance team (FP&A and controlling) and CFO services for a start-up.
