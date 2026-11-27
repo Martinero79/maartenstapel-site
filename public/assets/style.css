@@ -85,3 +85,5 @@ h1 .muted{color:var(--accent2)}
 a.card.link{color:inherit;display:block;text-decoration:none}a.card.link:hover{border-color:var(--accent)}
 @media (max-width:720px){.timeline>li{grid-template-columns:1fr}.timeline .when{grid-column:1;grid-row:auto}.timeline>li>*{grid-column:1}.facts{grid-template-columns:1fr}}
 .grid.six{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.subhead{margin-top:56px}
+.grid.four{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}

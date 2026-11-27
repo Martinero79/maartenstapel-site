@@ -4,6 +4,19 @@ Every change to the website is listed here: what changed and why.
 Each entry matches a pull request on GitHub, which holds the exact line-by-line changes.
 Nothing goes live until Maarten merges the pull request himself.
 
+## 2026-11-27: Show the roles I take on, interim or permanent (pull request #5)
+**What changed**
+- New section "Roles I take on" (first section after the top) with six cards: Finance Business Partner, Business Controller, Finance Manager, FP&A, Leading a small finance team (FP&A and controlling) and CFO services for a start-up.
+- Intro line under it: available for interim assignments, including parental leave and vacancy cover, and open to permanent roles in Copenhagen.
+- The old "Assignments I take on" cards are now "How I can help" (Planning cycles, Close and reporting, KPIs and performance, Group reporting). "Cover roles" and "Business partnering" were removed there because the new role cards cover them.
+- Top section: the line under the big heading now lists the four roles; the status pill says "interim or permanent"; the intro ends with "Available for interim assignments and open to permanent roles."
+- Engagement "Type" now says "Interim assignments or permanent roles". Contact text and footer no longer say interim only. Menu item "Services" is now "Roles".
+- Search engine text and structured data mention the four roles and CFO services for start-ups.
+
+**Why**
+- Maarten wants to be hired for interim or permanent roles and the page read as interim only. Team leadership is phrased as what Maarten can do, with no invented team sizes or titles. The start-up CFO card points to the ten years co-founding and running Light Skateboards (already in About).
+- The hidden Danish draft is not updated yet; it will be redone when the Danish version is reviewed.
+
 ## 2026-11-27: New colour scheme "Nordic Blue" (pull request #4)
 **What changed**
 - Main colour is now a clear blue (#1d5fa8) instead of dark teal, used for the "Get in touch" button, the line under the name and the years in the track record.
